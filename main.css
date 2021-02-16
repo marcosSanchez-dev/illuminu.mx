@@ -1,0 +1,137 @@
+/*
+Page
+*/
+body{
+    font-family: 'Heebo',Arial, Helvetica, sans-serif;
+}
+/*
+    illuminu SVG
+*/
+.illuminu-logo{
+    -webkit-filter: drop-shadow(0px 0px 3px white);
+            filter: drop-shadow(0px 0px 3px white);
+    margin: 5% auto; 
+    max-width: 60%;
+}
+@media only screen and (min-width:900px){
+    .illuminu-logo{
+        max-width: 50%;
+    }
+} 
+@media only screen and (min-width:1100px){
+    .illuminu-logo{
+        max-width: 45%;
+    }
+} 
+@media only screen and (min-width:1100px){
+    .illuminu-logo{
+        max-width: 45%;
+    }
+} 
+@media only screen and (min-width:1200px){
+    .illuminu-logo{
+        max-width: 40%;
+    }
+} 
+.illuminu-logo path{
+    stroke: white;
+    stroke-width: 1;
+    fill: white;
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+}
+.experiences{
+    border-radius: 15px;
+    background: rgba(0,0,0,0.8);
+    padding:5%!important;
+    width: 90%;
+    box-shadow: 0 0 15px  rgba(0,0,0,0.7);
+}
+.experiences svg{
+    width: 20%;
+}
+.logo-projects{
+    width: 4vw !important;
+}
+@media only screen and (max-width:1300px){
+    .logo-projects{
+        width: 7vw !important;
+    }
+}
+@media only screen and (max-width:1000px){
+    .logo-projects{
+        width: 9vw !important;
+    }
+}
+@media only screen and (max-width:800px){
+    .logo-projects{
+        width: 13vw !important;
+    }
+}
+@media only screen and (max-width:600px){
+    .logo-projects{
+        width: 20vw !important;
+    }
+}
+/*
+    TEAM
+*/
+.bio-contact{
+    height: 30vh;
+    clip-path: circle();
+    margin: 2%;
+}
+@media only screen and (max-width:1050px){
+    .bio-contact{
+    height: 65vh;
+    }
+}
+#ainer, #pike, #daniel, #marcos{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#ainer{
+    background-image: url(./fotos/ainer-album/ainer_twfxpx_c_scale\,w_1400.jpg);
+}
+#pike{
+    background-image: url(./fotos/pike.jpg);
+}
+#daniel{
+    background-image: url(./fotos/daniel-album/daniel_vgfyte_c_scale\,w_1400.jpg);
+}
+#marcos{
+    background-image: url(./fotos/marcos-album/marcos_kkas0c_c_scale\,w_1400.jpg);
+}
+/*
+    LOGOS redes sociales
+*/
+.network-logo{
+    width: auto;
+    height: 5vh;
+    padding: 3%;
+}
+@media only screen and (max-width:950px){
+    .network-logo{
+        height: 7vh;
+    }
+}
+@media only screen and (max-width:650px){
+    .network-logo{
+        height: 10vh;
+    }
+}
+.network-logo:hover,footer a:hover{
+    box-shadow: 0px 0px 20px 0px rgba(255,0,0,1);
+    cursor: pointer;
+    fill: red !important;
+}
+/* model-viewer{
+    margin: 0 auto;
+} */
+canvas{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -3;
+}
